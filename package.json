@@ -1,0 +1,24 @@
+{
+  "name": "avsproject-in-mongodb",
+  "version": "1.0.0",
+  "description": "node app allows for connection to mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Baltazar Juarez",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.0.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
